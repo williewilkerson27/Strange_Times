@@ -17,7 +17,7 @@ user_input = int(input())
 
 def main():
     character = [ Samurai(), Wizard(), Soldier() ]
-    enemies = [ Goblin(), Zombie(), ]
+    enemies = [ Goblin(), Zombie(), Goblin_Chief() ]
 
     while character.is_alive():
         print()
